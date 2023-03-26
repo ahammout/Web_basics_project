@@ -1,0 +1,45 @@
+.Body_class {
+    background-image: url("file:///home/ahammout/Downloads/welcome.png");
+    background-color: aliceblue;
+    background-repeat: repeat-x;
+    background-size: 1000px;
+}
+
+#title {
+    margin-top: 450px;
+    color: black;
+    margin-left: 385px;
+}
+
+#Counter {
+    margin-left: 480px;
+    text-decoration: underline;
+}
+
+#IncrementButton {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    margin-left: 400px;
+    background-color: rgb(0, 178, 248);
+}
+
+#SaveButton {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    margin-left: 400px;
+    background-color: rgb(115, 231, 38);
+}
+
+#ResetButton {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    margin-left: 400px;
+    background-color: yellow;
+}
+
+#SavedValues {
+    margin-left: 400px;
+}

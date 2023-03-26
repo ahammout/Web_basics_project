@@ -1,0 +1,29 @@
+h1{
+    color:blue;
+}
+
+#index_page{
+    background-color: #EAF6F6;
+}
+
+#index_page h3 {
+    height: 20px;
+    color: #66BFBF;
+}
+
+#contact {
+    background-color: #66BFBF;
+}
+
+#Box1 {
+    background-color: #FF0063;
+    box-sizing: 80px;
+}
+
+#p_name:hover {
+    color:#FF0063;
+}
+
+.r_solong {
+    background-color:#66BFBF;
+}

@@ -1,0 +1,77 @@
+.Body {
+    background-color: rgb(54, 87, 5);
+    text-align: center;
+    font-weight: bold;
+    font-size:large
+    
+}
+
+#title 
+{
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+#messages 
+{
+    color: white;
+    font-style: italic;
+}
+
+#Message-el
+{
+    font-size: 40px;
+}
+
+#StartButton
+{
+    color: rgb(54, 87, 5);
+    background-color:goldenrod;
+    width: 210px;
+    height: 50px;
+    font-size:large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#RestartButton
+{
+    margin-top : 5px;
+    color: rgb(54, 87, 5);
+    background-color:rgb(218, 106, 32);
+    width: 210px;
+    height: 50px;
+    font-size:large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#newcardButton
+{
+    margin-top : 5px;
+    color: rgb(54, 87, 5);
+    background-color:goldenrod;
+    width: 210px;
+    height: 50px;
+    font-size:large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#BlackJacks
+{
+    font-weight: bold;
+    color:goldenrod;
+    font-style: italic;
+    font-size:20px;
+    text-align: center;
+}
+
+#PlayerStat
+{
+    font-weight: bold;
+    color:rgb(218, 106, 32);
+    font-style:italic;
+    text-align: center;
+    font-size: 30px;
+}

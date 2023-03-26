@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<body id="contact">
+    <h2><a href="file:///home/ahammout/Desktop/Learning_path/Web-dev/HTML-personal-website/index.html">HOME</a></h2>
+    <h1>Contact Page</h1>
+    <ol>
+        <li><strong>Phone Number: </strong>+212688828572</li>
+        <li><strong>Gmail: </strong>issamhammoutan2@gmail.com</li>
+        <li><strong>LinkedIn: </strong> <a href="https://www.linkedin.com/in/aissam-hammoutane-9968341b8/">Aissam Hammoutane</a> </li>
+    </ol>
+    <hr size="2px" color="black">
+    <!--Using forms; Send data entered by the user to an email specified on action artibute-->
+    <form action="mailto:issamhammoutan2@gmail.com" method="post" enctype="text/plain">
+        <div>
+            <label for="name"><b>Full name:</b></label>
+            <input name="name" type="text" id="name">
+        </div>
+        <div>
+            <label for="email"><b>Email: </b></label>
+            <input name="email" type="email", id="email">
+        </div>
+        <div>
+            <label for="birthday"><b>Your birthday: </b></label>
+            <input name="Birthay " type="date" id="birthday">
+        </div>
+        <div>
+            <label for="image"><b>Upload a profile image: </b></label>
+            <input name="image " type="file" accept="image/png, image/jpeg," id="image">
+        </div>
+        <div>
+            <label for="openion"><b>Rate our service: </b></label>
+            <input name="openion " type="range" id="openion">
+        </div>
+        <div>
+            <label for="comment">Thank you for submitting<br><b>Your meassage:</b></label>
+            <br>
+            <textarea name="Comment " id="comment" cols="30" rows="10"></textarea>
+        </div>
+        <input type="submit">
+    </form>
+</body>
+</html>
